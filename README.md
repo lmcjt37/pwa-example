@@ -13,7 +13,7 @@ Just a sample app to test the capabilities of PWA's, focusing on Android and the
 
 ## Getting Started
 1. Clone this repository
-2. Run `npm install && npm run dev`, this will install all dependencies, build and start up the server
+2. Run `npm install && npm start`, this will install all dependencies, build and start up the server
 3. Visit `localhost:8080` in your browser (You can also visit the app on your device when on the same network)
 
 ## Contact
