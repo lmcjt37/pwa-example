@@ -5,11 +5,11 @@ Just a sample app to test the capabilities of PWA's, focusing on Android and the
 
 ## Agenda
 * Splash screens
-* Push notifications
+* Push notifications(WIP)
 * offline mode
 * Caching
 * Service workers
-* Authentication
+* Authentication(WIP)
 
 ## Getting Started
 1. Clone this repository
