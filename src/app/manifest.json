@@ -1,0 +1,49 @@
+{
+    "name": "PWA Example",
+    "short_name": "PWA",
+    "description": "Example Progressive Web Apps for testing",
+    "start_url": "./index.html?utm=homescreen",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#5b3256",
+    "theme_color": "#5b3256",
+    "icons": [
+        {
+            "src": "./images/192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "./images/168x168.png",
+            "type": "image/png",
+            "sizes": "168x168"
+        },
+        {
+            "src": "./images/144x144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "./images/96x96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "./images/72x72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "./images/48x48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        }
+    ],
+    "author": {
+        "name": "Luke Taylor",
+        "website": "https://lmcjt.com",
+        "github": "https://github.com/lmcjt37",
+        "source-repo": "https://github.com/lmcjt37/pwa-example"
+    },
+    "gcm_sender_id": ""
+}

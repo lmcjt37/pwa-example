@@ -7,14 +7,13 @@ Just a sample app to test the capabilities of PWA's, focusing on Android and the
 * Splash screens(WIP)
 * Push notifications(WIP)
 * offline mode
-* Caching(WIP)
+* Caching
 * Service workers
-* Authentication(WIP)
 
 ## Getting Started
 1. Clone this repository
 2. Run `npm install && npm start`, this will install all dependencies, build and start up the server
-3. Visit `localhost:8080` in your browser (You can also visit the app on your device when on the same network)
+3. Visit `localhost:8080` in your browser :rocket: (You can also visit the app on your device when on the same network)
 
 ## Contact
 Feel free to contact me directly through twitter @lmcjt or my website [lmcjt.com](http://lmcjt.com)

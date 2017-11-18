@@ -191,7 +191,7 @@ header {
 }
 
 .menu__header {
-  height: 150px;
+  height: 56px;
   background: #5B3256;
   color: #fff;
   border-bottom: 1px solid #ddd;
@@ -354,8 +354,9 @@ button:disabled {
 }
 
 .card a {
-  color: red;
+  color: blue;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .card__title,
