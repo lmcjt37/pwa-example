@@ -4,35 +4,6 @@
     var fabPushElement = document.querySelector('.fab__push');
     var fabPushImgElement = document.querySelector('.fab__image');
 
-    function saveSubscriptionID(subscription) {
-        var subscription_id = subscription.endpoint.split('gcm/send/')[1];
-
-        console.log("Subscription ID", subscription_id);
-
-        fetch('http://localhost:3333/api/users', {
-            method: 'post',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                user_id : subscription_id
-            })
-        });
-    }
-
-    function deleteSubscriptionID(subscription) {
-        var subscription_id = subscription.endpoint.split('gcm/send/')[1];
-
-        fetch('http://localhost:3333/api/user/' + subscription_id, {
-            method: 'delete',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            }
-        });
-    }
-
     function isPushSupported() {
         if (Notification.permission === 'denied') {
             alert('User has blocked push notification.');
@@ -129,6 +100,35 @@
             subscribePush();
         }
     });
+
+    function saveSubscriptionID(subscription) {
+        var subscription_id = subscription.endpoint.split('gcm/send/')[1];
+
+        console.log("Subscription ID", subscription_id);
+
+        fetch('http://localhost:3333/api/users', {
+            method: 'post',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                user_id : subscription_id
+            })
+        });
+    }
+
+    function deleteSubscriptionID(subscription) {
+        var subscription_id = subscription.endpoint.split('gcm/send/')[1];
+
+        fetch('http://localhost:3333/api/user/' + subscription_id, {
+            method: 'delete',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            }
+        });
+    }
 
     isPushSupported();
 })(window);
