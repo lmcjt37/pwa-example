@@ -1,17 +1,14 @@
 var cacheName = 'pwa-example';
 
-// Install Service Worker
 self.addEventListener('install', function(event) {
 
     console.log('Service Worker: Installing...');
 
     event.waitUntil(
 
-        // Open the Cache
         caches.open(cacheName).then(function(cache) {
             console.log('Service Worker: Caching...');
 
-            // Add Files to the Cache
             return cache.addAll([
                 './',
                 './css/style.css',
@@ -22,6 +19,7 @@ self.addEventListener('install', function(event) {
                 './images/push-on.png',
                 './js/app.js',
                 './js/menu.js',
+                './js/notification.js',
                 './js/offline.js',
                 './js/toast.js'
             ]);

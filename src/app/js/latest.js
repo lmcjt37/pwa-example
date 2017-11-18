@@ -22,7 +22,6 @@
         }
     }
 
-    // Get the Data from the Web Storage
     function fetchDataFromLocalStorage(data) {
         var localData = JSON.parse(data);
 
@@ -78,9 +77,6 @@
 
     if (storageAvailable('localStorage')) {
         if (localStorage.getItem('prData') === null) {
-            /* The user is using the app for the first time, or the user has not
-            * saved any commit data, so show the user some fake data.
-            */
             fetchData();
             console.log("Fetched from API");
         } else {
@@ -92,7 +88,7 @@
     }
 
     document.getElementById('butRefresh').addEventListener('click', function() {
-        // Get fresh, updated data whenever it's clicked
+        // Trigger update to refresh data
         toast('Fetching latest data...');
         fetchData();
     });

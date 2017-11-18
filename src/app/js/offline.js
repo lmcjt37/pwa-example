@@ -4,7 +4,6 @@
   var header = document.querySelector('header');
   var menuHeader = document.querySelector('.menu__header');
 
-  //After DOM Loaded
   document.addEventListener('DOMContentLoaded', function(event) {
     //On initial load to check connectivity
     if (!navigator.onLine) {
