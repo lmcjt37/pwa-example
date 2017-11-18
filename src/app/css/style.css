@@ -280,7 +280,7 @@ button {
   min-width: 60px;
   font-size: 14px;
   border: 0;
-  background: #4F8EFA;
+  background: #7c4475;
   color: #fff;
   border-radius: 2px;
   margin: 0 auto -5px;
@@ -328,7 +328,7 @@ button:disabled {
 
 .custom__input:checked + .custom__checkbox::before {
   left: 25px;
-  background: #0288d1;
+  background: #3a2037;
 }
 
 .card__container {
