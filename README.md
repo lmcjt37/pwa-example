@@ -15,6 +15,11 @@ Just a sample app to test the capabilities of PWA's, focusing on Android and the
 2. Run `npm install && npm start`, this will install all dependencies, build and start up the server
 3. Visit `localhost:8080` in your browser :rocket: (You can also visit the app on your device when on the same network)
 
+_Note_:: You will need an API to run Push notifications, one can be found here [https://github.com/lmcjt37/pwa-api](https://github.com/lmcjt37/pwa-api)
+
+## Acknowledgements
+* Prosper Otemuyiwa - [unicodeveloper](https://github.com/unicodeveloper)
+
 ## Contact
 Feel free to contact me directly through twitter @lmcjt or my website [lmcjt.com](http://lmcjt.com)
 

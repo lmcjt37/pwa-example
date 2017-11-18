@@ -57,3 +57,28 @@ self.addEventListener('fetch', function(event) {
         })
     );
 });
+
+self.addEventListener('push', function(event) {
+
+    console.info('Push Received.');
+
+    var title = 'PWA Example';
+    var body = {
+        'body': 'Click to see the latest commit',
+        'tag': 'pwa',
+        'icon': './images/48x48.png'
+    };
+
+    event.waitUntil(
+        self.registration.showNotification(title, body)
+    );
+});
+
+self.addEventListener('notificationclick', function(event) {
+
+    event.notification.close();
+    event.waitUntil(
+        clients.openWindow('./latest.html')
+    );
+
+});
