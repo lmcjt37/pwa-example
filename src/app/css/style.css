@@ -86,7 +86,7 @@ header {
   width: 100%;
   height: 56px;
   top: 0;
-  background-color: #1E88E5;
+  background-color: #5B3256;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.19);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -192,7 +192,7 @@ header {
 
 .menu__header {
   height: 150px;
-  background: #1E88E5;
+  background: #5B3256;
   color: #fff;
   border-bottom: 1px solid #ddd;
 }
@@ -559,7 +559,7 @@ b {
 
 b i a {
   text-decoration: underline;
-  color: #1E88E5;
+  color: #5B3256;
 }
 
 .add__card ul + p {
@@ -579,7 +579,7 @@ b i a {
 
 .card__spinner::after {
   content: "Loading...";
-  color: #1E88E5;
+  color: #5B3256;
   background: #fff;
   position: absolute;
   left: 0;
@@ -617,7 +617,7 @@ b i a {
 
 .share__container a {
   text-decoration: underline;
-  color: #1E88E5;
+  color: #5B3256;
 }
 
 .share__container {

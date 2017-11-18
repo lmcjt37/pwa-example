@@ -19,7 +19,7 @@
   function updateNetworkStatus() {
     if (navigator.onLine) {
       header.classList.remove('app__offline');
-      menuHeader.style.background = '#1E88E5';
+      menuHeader.style.background = '#5B3256';
     }
     else {
       toast('You are now offline..');
