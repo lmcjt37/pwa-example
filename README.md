@@ -5,7 +5,7 @@ Just a sample app to test the capabilities of PWA's, focusing on Android and the
 
 ## Agenda
 * Splash screens(WIP)
-* Push notifications(WIP)
+* Push notifications
 * offline mode
 * Caching
 * Service workers
@@ -32,4 +32,3 @@ It's an ongoing project and contributions, issues or suggestions are welcome. Yo
 
 ## Troubleshooting
 - Make sure to run `npm install` on first run of code to avoid console warnings/errors.
-- If you receive "Node Sass could not find a binding for your current environment" error, try running `npm rebuild node-sass` to build the binding for your current environment.
