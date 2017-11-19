@@ -1,6 +1,8 @@
 (function (window) {
     'use strict';
 
+    var base_url = "https://polar-falls-23707.herokuapp.com/";
+
     var fabPushElement = document.querySelector('.fab__push');
     var fabPushImgElement = document.querySelector('.fab__image');
 
@@ -106,7 +108,7 @@
 
         console.log("Subscription ID", subscription_id);
 
-        fetch('http://localhost:3333/api/users', {
+        fetch(base_url + '/api/users', {
             method: 'post',
             headers: {
                 'Accept': 'application/json',
@@ -121,7 +123,7 @@
     function deleteSubscriptionID(subscription) {
         var subscription_id = subscription.endpoint.split('gcm/send/')[1];
 
-        fetch('http://localhost:3333/api/user/' + subscription_id, {
+        fetch(base_url + '/api/user/' + subscription_id, {
             method: 'delete',
             headers: {
                 'Accept': 'application/json',
