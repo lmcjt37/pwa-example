@@ -21,7 +21,7 @@
     "http-server": "^0.10.0"
   },
   "scripts": {
-    "start": "http-server ./src/app/"
+    "start": "http-server ./public/"
   },
   "dependencies": {}
 }
