@@ -17,6 +17,12 @@ Just a sample app to test the capabilities of PWA's, focusing on Android and the
 
 _Note_:: You will need an API to run Push notifications, one can be found here [https://github.com/lmcjt37/pwa-api](https://github.com/lmcjt37/pwa-api)
 
+## Hosting
+
+An example is being hosting with [Firebase](https://firebase.google.com) and can be found below
+
+[https://pwa-example-8b653.firebaseapp.com/](https://pwa-example-8b653.firebaseapp.com/)
+
 ## Acknowledgements
 * Prosper Otemuyiwa - [unicodeveloper](https://github.com/unicodeveloper)
 
