@@ -1,7 +1,7 @@
 (function (window) {
     'use strict';
 
-    var base_url = "https://polar-falls-23707.herokuapp.com/";
+    var base_url = "https://polar-falls-23707.herokuapp.com";
 
     var fabPushElement = document.querySelector('.fab__push');
     var fabPushImgElement = document.querySelector('.fab__image');
