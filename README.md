@@ -4,9 +4,9 @@
 Just a sample app to test the capabilities of PWA's, focusing on Android and the use of service workers.
 
 ## Agenda
-* Splash screens(WIP)
+* Splash screens (On device)
 * Push notifications
-* offline mode
+* Offline mode
 * Caching
 * Service workers
 
