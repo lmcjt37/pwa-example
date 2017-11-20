@@ -64,7 +64,7 @@ self.addEventListener('push', function(event) {
 
     var title = 'PWA Example';
     var body = {
-        'body': 'Click to see the latest commit',
+        'body': 'Click to see more...',
         'tag': 'pwa',
         'icon': './images/48x48.png'
     };
@@ -74,7 +74,7 @@ self.addEventListener('push', function(event) {
     );
 });
 
-self.addEventListener('notificationclick', function(event) {
+self.addEventListener('onnotificationclick', function(event) {
 
     event.notification.close();
     event.waitUntil(
